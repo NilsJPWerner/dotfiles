@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Boxy Theme",
+		"ColorPicker",
+		"Colorsublime",
+		"Djaneiro",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"HTMLBeautify",
+		"jQuery",
+		"Package Control",
+		"SideBarEnhancements",
+		"SML (Standard ML)",
+		"SublimeLinter",
+		"Terminal",
+		"TrailingSpaces"
+	]
+}
