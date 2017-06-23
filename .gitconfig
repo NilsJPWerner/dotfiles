@@ -23,6 +23,8 @@
 	# Clone a repository including all submodules
 	c = clone --recursive
 
+	co = checkout
+
 	# Commit all changes
 	ca = !git add -A && git commit -av
 
@@ -185,3 +187,9 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
