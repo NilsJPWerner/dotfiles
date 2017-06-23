@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "trailing-spaces.trimOnSave": true,
+    "workbench.statusBar.visible": true,
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+    "editor.formatOnPaste": true,
+    "trailing-spaces.liveMatching": false,
+    "workbench.colorTheme": "Boxy Monokai",
+    "workbench.iconTheme": "vs-seti",
+    "editor.dragAndDrop": true,
+    "typescript.check.tscVersion": false,
+    "autoDocstring.docstringFormat": "google",
+    "window.zoomLevel": 0
+}

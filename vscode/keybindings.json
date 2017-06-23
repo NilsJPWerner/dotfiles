@@ -1,0 +1,10 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "cmd+shift+7",                 "command": "editor.action.commentLine",
+                                    "when": "editorTextFocus && !editorReadonly"
+                                },
+                                {
+                                    "key": "shift+alt+7",
+                                    "command": "-elm.replSendLine"
+                                }
+                            ]
